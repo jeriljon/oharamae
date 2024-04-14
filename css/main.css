@@ -2432,9 +2432,11 @@ header .logo a {
 	color: #FF0077;
 }
 
-.contact-info p {
+.contact-info p,
+.contact-info p a { /* Ensure anchor tag inherits the same color */
 	color:#FFFFFF;
 }
+
 
 /**
  * loader animation - (_layout.scss)
